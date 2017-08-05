@@ -1,0 +1,48 @@
+.title {
+  text-align: center;
+}
+
+.screen {
+  width: 80%;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+}
+
+/*Seat Styling*/
+.rowCenter {
+  text-align: center;
+}
+
+.seat{
+    width:10em;
+    height: 10em;
+    background-color:#2A3238;
+    margin-top:5%;
+    display:inline-block;
+    text-align:center;
+    border-radius: 10%;
+    border: double;
+}
+
+.available{
+  background-color:#3993DD;
+  border-color:#2A3238;
+}
+
+.seatHover {
+  background-color:#E1FAF9;
+  border-color:#2A3238;
+}
+
+.taken{
+    color:#FFFFFF;
+    background-color:#2A3238;
+    border-color: #FF6633;
+}
+
+.form {
+  text-align: center;
+}
+
+.modal-title {}
