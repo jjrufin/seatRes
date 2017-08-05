@@ -26,7 +26,6 @@ $(document).ready(function(){
       person.email = $('#email').val();
       reservations.push(person);
       console.log(reservations);
-      return false;
     });
   });
 });

@@ -41,8 +41,15 @@
     border-color: #FF6633;
 }
 
+/*Modal*/
+.modalBtns {
+  padding: 10px;
+}
+
 .form {
   text-align: center;
 }
 
-.modal-title {}
+.modal {
+  width: auto;
+}

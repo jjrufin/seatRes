@@ -16,11 +16,13 @@
     </div>
       <div>
         <form class="form">
-          Name<br /><input type="text"/><br/>
-          Phone<br /><input type="number" /><br/>
-          Email<br /><input type="text" /><br/>
-          <button class="btn btn-primary" type="button">Reserve</button>
-          <button data-dismiss="modal" type="button" class="btn btn-primary">Cancel</button>
+          Name<br /><input type="text" id="name"/><br/>
+          Phone<br /><input type="number" id="phone"/><br/>
+          Email<br /><input type="text" id="email"/><br/>
+          <div class="modalBtns">
+            <button class="reserveButton btn btn-primary" type="button">Reserve</button>
+            <button class="cancelBtn btn btn-primary" data-dismiss="modal" type="button">Cancel</button>
+          </div>
         </form>
       </div>
   </div>
