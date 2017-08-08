@@ -1,12 +1,20 @@
+body {
+  background-color: #101D42;
+}
+
 .title {
   text-align: center;
+  color: white;
+  font-family: 'Playfair Display SC', serif;
 }
 
 .screen {
-  width: 80%;
   text-align: center;
+  background-color: white;
+  color: black;
   border-style: solid;
   border-color: black;
+  height: 40px;
 }
 
 /*Seat Styling*/
@@ -23,6 +31,8 @@
     text-align:center;
     border-radius: 10%;
     border: double;
+    color: white;
+    font-family: 'Questrial', sans-serif;
 }
 
 .available{
@@ -33,6 +43,7 @@
 .seatHover {
   background-color:#E1FAF9;
   border-color:#2A3238;
+  color: black;
 }
 
 .taken{
@@ -48,8 +59,4 @@
 
 .form {
   text-align: center;
-}
-
-.modal {
-  width: auto;
 }

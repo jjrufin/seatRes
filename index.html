@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="styles/css/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC|Questrial" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <h1 class="title">Seat Reservation</h1>
+    <!--Bootstrap Modal/Form-->
 <div id="modal" class="modal">
   <div class="modal-content">
     <div class="modal-header">
@@ -16,9 +18,9 @@
     </div>
       <div>
         <form class="form">
-          Name<br /><input type="text" id="name"/><br/>
-          Phone<br /><input type="number" id="phone"/><br/>
-          Email<br /><input type="text" id="email"/><br/>
+          <h5>Name</h5><input type="text" id="name" required><br/>
+          <h5>Phone</h5><input type="number" id="phone" required><br/>
+          <h5>Email</h5><input type="text" id="email" required><br/>
           <div class="modalBtns">
             <button class="reserveButton btn btn-primary" type="submit" data-dismiss="modal">Reserve</button>
             <button class="cancelBtn btn btn-primary" data-dismiss="modal" type="button">Cancel</button>
@@ -27,6 +29,12 @@
       </div>
   </div>
 </div>
+<div class="rowCenter">
+  <div class='row'>
+      <div class='col-lg-12 screen' id="1A"><span>Screen<br /></span></div>
+  </div>
+</div>
+<!-- Theatre Seats-->
   <div class="rowCenter">
     <div class='row'>
         <div class='seat available' id="1A"><span>1A<br /></span></div>
