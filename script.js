@@ -14,7 +14,7 @@ $(document).ready(function(){
   });
 
   // Beginning of Click
-  $('.available').on('click', function (e){
+  $('.seat').on('click', function (e){
     var seatNum = e.target.innerText;
     var mySeat = e.target;
     $('.modal').modal();
